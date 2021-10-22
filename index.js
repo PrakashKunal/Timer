@@ -2,16 +2,17 @@ var timer=document.querySelector('#timer');
 var startbtn=document.querySelector('#startbtn');
 var resetbtn=document.querySelector('#resetbtn');
 var stopbtn=document.querySelector('#stopbtn');
-startbtn.addEventListener('click',()=>{startTimer()});
-stopbtn.addEventListener('click',()=>{stopTimer()});
-resetbtn.addEventListener('click',()=>{resetTimer()});
-
-
 var hrs= 00;
 var mins=00;
 var secs= 00;
 var millisecs=00;
 var myVar;
+startbtn.addEventListener('click',()=>{startTimer()});
+stopbtn.addEventListener('click',()=>{stopTimer()});
+resetbtn.addEventListener('click',()=>{resetTimer()});
+
+
+
 
 
 function startTimer()
