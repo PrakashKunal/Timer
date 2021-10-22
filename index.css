@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    margin-top: 5rem;
+}
+#timer
+{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+button
+{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0.5rem;
+    margin-right:1rem ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+#startbtn
+{
+    background-color: rgb(105, 228, 135);
+}
+#stopbtn
+{
+    background-color: rgb(240, 80, 80);
+}
+#resetbtn
+{
+    background-color: rgb(96, 153, 240);
+}
+
+button:hover
+{
+    cursor: pointer;
+}
